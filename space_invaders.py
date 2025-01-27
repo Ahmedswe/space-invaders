@@ -213,8 +213,8 @@ def game_loop():
     # a variable that will make the game over when it changes to true from false
     game_over = False
     fire = False  # a variable that will let the bullet be shot only if its true
-    path ="C:\\Users\\abbas\\OneDrive\\Python code\\pygame_projects\\space invaders\\data\\highscore.txt"
-    with open(path, "r+") as file:
+    path ="data\highscore.txt"
+    with open(path, "r") as file:
         highscore = file.read()
 # starting the actual game loop
 
